@@ -1,7 +1,7 @@
 import numpy as np
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
+
 
 class MultiHeadAttentionLayer(nn.Module):
     def __init__(self, hid_dim, n_heads, dropout):
