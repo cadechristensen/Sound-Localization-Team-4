@@ -9,6 +9,8 @@ import librosa
 import doanet_model
 import doanet_parameters
 import cls_feature_class
+import pyaudio
+import wave
 
 warnings.filterwarnings("ignore")
 os.environ["PYTHONWARNINGS"] = "ignore"
